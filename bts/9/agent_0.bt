@@ -14,45 +14,23 @@
         "metadata": {
           "label": ""
         },
-        "properties": {},
-        "children": [
-          {
-            "activated": true,
-            "metadata": {
-              "label": ""
+        "properties": {
+          "name": "say",
+          "inputParams": [
+            {
+              "type": "string",
+              "value": "Hello world!"
             },
-            "properties": {
-              "name": "",
-              "inputParams": [],
-              "outputParams": []
-            },
-            "children": [],
-            "id": "179d11b6-3911-4cf6-a1fe-28c056b91c0b",
-            "type": "action"
-          },
-          {
-            "activated": true,
-            "metadata": {
-              "label": ""
-            },
-            "properties": {
-              "name": "Say",
-              "inputParams": [
-                {
-                  "key": "message",
-                  "type": "string",
-                  "value": "Hello World!"
-                }
-              ],
-              "outputParams": []
-            },
-            "children": [],
-            "id": "58bc0326-2b30-4070-a825-96a3474cb97d",
-            "type": "action"
-          }
-        ],
-        "id": "1a46032a-9137-496d-8ea8-577af296c181",
-        "type": "sequence"
+            {
+              "type": "string",
+              "value": ""
+            }
+          ],
+          "outputParams": []
+        },
+        "children": [],
+        "id": "51dd37da-4ae2-4bba-a093-a838dd32d405",
+        "type": "action"
       }
     ],
     "id": "09bc9287-c032-401c-80fa-1954f691fc74"
