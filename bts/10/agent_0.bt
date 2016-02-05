@@ -8,7 +8,28 @@
       "label": ""
     },
     "properties": {},
-    "children": [],
+    "children": [
+      {
+        "activated": true,
+        "metadata": {
+          "label": "TestAgent"
+        },
+        "properties": {
+          "name": "Say",
+          "inputParams": [
+            {
+              "key": "message",
+              "type": "string",
+              "value": "test hello"
+            }
+          ],
+          "outputParams": []
+        },
+        "children": [],
+        "id": "78101788-dc20-40df-9b73-3499cebcce3d",
+        "type": "action"
+      }
+    ],
     "id": "70a820f1-4289-49a4-8928-76bec754c8d4"
   }
 ]
