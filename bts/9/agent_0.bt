@@ -18,6 +18,7 @@
           "name": "say",
           "inputParams": [
             {
+              "key": "message",
               "type": "string",
               "value": "Hello world!"
             }
