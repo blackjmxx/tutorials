@@ -15,7 +15,7 @@
           "label": ""
         },
         "properties": {
-          "name": "say",
+          "name": "Say",
           "inputParams": [
             {
               "key": "message",
