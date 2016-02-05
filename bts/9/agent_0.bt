@@ -20,10 +20,6 @@
             {
               "type": "string",
               "value": "Hello world!"
-            },
-            {
-              "type": "string",
-              "value": ""
             }
           ],
           "outputParams": []
