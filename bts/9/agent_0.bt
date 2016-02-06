@@ -58,28 +58,7 @@
               },
               "op": "!="
             },
-            "children": [
-              {
-                "activated": true,
-                "metadata": {
-                  "label": ""
-                },
-                "properties": {
-                  "name": "Say",
-                  "inputParams": [
-                    {
-                      "key": "message",
-                      "type": "string",
-                      "value": "ok"
-                    }
-                  ],
-                  "outputParams": []
-                },
-                "children": [],
-                "id": "7c326174-05a0-45e8-83a8-11a095013a32",
-                "type": "action"
-              }
-            ],
+            "children": [],
             "id": "c955b2bb-7438-43d0-a1df-acc1b48f44e4",
             "type": "condition"
           },
@@ -101,6 +80,26 @@
             },
             "children": [],
             "id": "51dd37da-4ae2-4bba-a093-a838dd32d405",
+            "type": "action"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "name": "Say",
+              "inputParams": [
+                {
+                  "key": "message",
+                  "type": "string",
+                  "value": "ok"
+                }
+              ],
+              "outputParams": []
+            },
+            "children": [],
+            "id": "7c326174-05a0-45e8-83a8-11a095013a32",
             "type": "action"
           }
         ],
