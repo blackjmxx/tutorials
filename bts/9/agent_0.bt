@@ -53,8 +53,8 @@
                 "value": "true"
               },
               "op2": {
-                "type": "boolean",
-                "value": "true"
+                "type": "string",
+                "value": ""
               },
               "op": "!="
             },
