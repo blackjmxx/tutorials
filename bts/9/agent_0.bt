@@ -149,23 +149,18 @@
                   "label": ""
                 },
                 "properties": {
-                  "name": "",
+                  "name": "Say",
                   "inputParams": [
                     {
-                      "key": "cityName",
+                      "key": "weather",
                       "type": "entityKnowledge",
-                      "value": "answer"
-                    },
-                    {
-                      "key": "cityWeather",
-                      "type": "entityKnowledge",
-                      "value": "weather"
+                      "value": "description"
                     }
                   ],
                   "outputParams": []
                 },
                 "children": [],
-                "id": "fa68e76b-293e-4fcb-8a7d-f3d149ba7d54",
+                "id": "9e2590b4-5a9c-459b-ae9b-5f00ed44bd75",
                 "type": "action"
               }
             ],
