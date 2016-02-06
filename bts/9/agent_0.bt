@@ -134,7 +134,7 @@
                     {
                       "key": "cityWeather",
                       "type": "entityKnowledge",
-                      "value": "answer"
+                      "value": "weather"
                     }
                   ],
                   "outputParams": []
