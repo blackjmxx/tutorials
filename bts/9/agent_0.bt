@@ -88,19 +88,89 @@
               "label": ""
             },
             "properties": {
-              "name": "Say",
+              "name": "GetCityWeather",
               "inputParams": [
                 {
-                  "key": "message",
-                  "type": "string",
-                  "value": "ok"
+                  "key": "cityName",
+                  "type": "entityKnowledge",
+                  "value": "answer"
                 }
               ],
-              "outputParams": []
+              "outputParams": [
+                {
+                  "key": "weather",
+                  "type": "entityKnowledge",
+                  "value": "weather"
+                }
+              ]
             },
             "children": [],
             "id": "7c326174-05a0-45e8-83a8-11a095013a32",
             "type": "action"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "statusCondition": "failsIfAnyFails",
+              "retryPolicy": "propagateToRunning"
+            },
+            "children": [
+              {
+                "activated": true,
+                "metadata": {
+                  "label": ""
+                },
+                "properties": {
+                  "name": "DisplayCityWeather",
+                  "inputParams": [
+                    {
+                      "key": "cityName",
+                      "type": "entityKnowledge",
+                      "value": "answer"
+                    },
+                    {
+                      "key": "cityWeather",
+                      "type": "entityKnowledge",
+                      "value": "answer"
+                    }
+                  ],
+                  "outputParams": []
+                },
+                "children": [],
+                "id": "b8f5a380-03f6-418f-a183-e63f7b11f221",
+                "type": "action"
+              },
+              {
+                "activated": true,
+                "metadata": {
+                  "label": ""
+                },
+                "properties": {
+                  "name": "",
+                  "inputParams": [
+                    {
+                      "key": "cityName",
+                      "type": "entityKnowledge",
+                      "value": "answer"
+                    },
+                    {
+                      "key": "cityWeather",
+                      "type": "entityKnowledge",
+                      "value": "weather"
+                    }
+                  ],
+                  "outputParams": []
+                },
+                "children": [],
+                "id": "fa68e76b-293e-4fcb-8a7d-f3d149ba7d54",
+                "type": "action"
+              }
+            ],
+            "id": "2b3bc314-2ce4-4111-ba9d-94eab4a2440b",
+            "type": "parallel"
           }
         ],
         "id": "d1da313b-775e-4fdb-b417-46c180aa2e14",
