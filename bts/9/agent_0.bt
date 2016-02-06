@@ -52,8 +52,8 @@
               "inputParams": [
                 {
                   "key": "message",
-                  "type": "string",
-                  "value": "Hello worlddkfnnkdf"
+                  "type": "entityKnowledge",
+                  "value": "anwser"
                 }
               ],
               "outputParams": []
