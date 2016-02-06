@@ -152,9 +152,9 @@
                   "name": "Say",
                   "inputParams": [
                     {
-                      "key": "message",
+                      "key": "",
                       "type": "entityKnowledge",
-                      "value": "description"
+                      "value": ""
                     }
                   ],
                   "outputParams": []
