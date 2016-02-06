@@ -71,7 +71,7 @@
               "name": "Say",
               "inputParams": [
                 {
-                  "key": "mesage",
+                  "key": "message",
                   "type": "entityKnowledge",
                   "value": "answer"
                 }
