@@ -50,7 +50,7 @@
             "properties": {
               "op1": {
                 "type": "entityKnowledge",
-                "value": "true"
+                "value": "anwser"
               },
               "op2": {
                 "type": "string",
