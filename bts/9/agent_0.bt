@@ -27,7 +27,7 @@
                 {
                   "key": "message",
                   "type": "string",
-                  "value": "please enter the message you want to display"
+                  "value": "Please enter the message you want to display"
                 }
               ],
               "outputParams": [
@@ -51,9 +51,9 @@
               "name": "Say",
               "inputParams": [
                 {
-                  "key": "message",
+                  "key": "mesage",
                   "type": "entityKnowledge",
-                  "value": "anwser"
+                  "value": "answer"
                 }
               ],
               "outputParams": []
