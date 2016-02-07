@@ -1,6 +1,6 @@
 [
   {
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   {
     "activated": true,
@@ -41,6 +41,26 @@
             "children": [],
             "id": "c0cfa3ff-a716-4047-b5ec-0759435d6e7b",
             "type": "action"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "op1": {
+                "type": "entityKnowledge",
+                "value": "answer"
+              },
+              "op2": {
+                "type": "string",
+                "value": ""
+              },
+              "op": "!="
+            },
+            "children": [],
+            "id": "0e9e96d1-a43b-434f-8773-b97cfe8e0525",
+            "type": "condition"
           },
           {
             "activated": true,
